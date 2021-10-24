@@ -11,7 +11,7 @@ export default class App extends Component {
     return (
       <BrowserRouter>
           <Switch>  {/**只要匹配到一个就不继续往下匹配了，path路径不能写 '.'**/}
-              <Route path='/login' component={Login}></Route> 
+              <Route path='/' component={Login}></Route> 
               <Route path='/admin' component={Admin}></Route>
           </Switch>
       </BrowserRouter>
